@@ -54,7 +54,7 @@ body {
   font-weight: bold;
 }
 .heading_container h2 span {
-  color: #0ba9a4;
+  color: #088783;
 }
 
 /*header section*/
@@ -104,7 +104,7 @@ body {
           text-decoration: underline #FFBA49;
 }
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #0ba9a4;
+  color: #088783;
 }
 
 a,
@@ -137,7 +137,7 @@ a:focus {
 
 .navbar-brand {
   display: flex;
-  background-color: #0ba9a4;
+  background-color: #088783;
   padding: 35px 55px 15px;
 }
 .navbar-brand span {
@@ -196,14 +196,14 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #0ba9a4;
+  background-color: #088783;
   color: #F7F7FF;
-  border: 1.5px solid #0ba9a4;
+  border: 1.5px solid #088783;
   border-radius: 0;
 }
 .slider_section .detail-box .btn-box .btn1:hover {
   background-color: transparent;
-  color: #0ba9a4;
+  color: #088783;
 }
 
 /* end slider section */
@@ -211,7 +211,7 @@ a:focus {
   margin-bottom: 25px;
 }
 .service_section .service_bg {
-  background-color: #0ba9a4;
+  background-color: #088783;
 }
 .service_section .service_container {
   display: flex;
@@ -245,15 +245,15 @@ a:focus {
 .service_section a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #0ba9a4;
+  background-color: #088783;
   color: #F7F7FF;
-  border: 1.5px solid #0ba9a4;
+  border: 1.5px solid #088783;
   border-radius: 0;
   margin-top: 35px;
 }
 .service_section a:hover {
   background-color: transparent;
-  color: #0ba9a4;
+  color: #088783;
 }
 
 .do_section .do_container {
@@ -274,15 +274,15 @@ a:focus {
 .do_section .do_container .detail-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #0ba9a4;
+  background-color: #088783;
   color: #F7F7FF;
-  border: 1.5px solid #0ba9a4;
+  border: 1.5px solid #088783;
   border-radius: 0;
   margin-top: 20px;
 }
 .do_section .do_container .detail-box a:hover {
   background-color: transparent;
-  color: #0ba9a4;
+  color: #088783;
 }
 .do_section .do_container .img-box img {
   width: 100%;
@@ -341,15 +341,15 @@ a:focus {
 .template_section a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #0ba9a4;
+  background-color: #088783;
   color: #F7F7FF;
-  border: 1.5px solid #0ba9a4;
+  border: 1.5px solid #088783;
   border-radius: 0;
   margin-top: 35px;
 }
 .template_section a:hover {
   background-color: transparent;
-  color: #0ba9a4;
+  color: #088783;
 }
 
 /* footer section*/
