@@ -5,6 +5,8 @@ $secondary: #AD7A99;
 $third:#FFBA49;
 $btnColor: #777777;
 
+
+// how to change to Roboto ?
 @mixin main-font {
   font-family: "Helvetica",
     sans-serif;
@@ -17,19 +19,19 @@ $btnColor: #777777;
 
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/Helvetica/Helvetica.ttf);
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/Helvetica/Helvetica-Bold.ttf);
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/Helvetica/HelveticaLt.ttf);
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
   font-weight: 300;
 }
 
@@ -306,11 +308,14 @@ a:focus {
       min-width: 250px;
       color: $white;
       margin: 25px 0;
+      
+      
 
       .img-box {
         width: 60px;
         height: 60px;
         display: flex;
+        
         justify-content:center;
         align-items: flex-end;
         margin-bottom: 10px;
@@ -319,6 +324,7 @@ a:focus {
           width: 100%;
           max-width: 75px;
           max-height: 75px;
+         
         }
       }
 
