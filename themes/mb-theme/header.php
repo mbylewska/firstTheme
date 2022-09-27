@@ -13,11 +13,11 @@
     <meta name="author" content="" />
 
     <title>
-        Ulio
+        Marta Bylewska
     </title>
 
     <!-- slider stylesheet -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> -->
 
     <!-- fonts style -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet" />
@@ -32,7 +32,7 @@
         <header class="header_section">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
-                    <a class="" href="#"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/logoM-color.png" alt="logo"></a>
+                    <a class="" href="#"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/logoM-white.png" alt="logo"></a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
