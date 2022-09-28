@@ -6,31 +6,31 @@ $third:#FFBA49;
 $btnColor: #777777;
 
 
-// how to change to Roboto ?
+
 @mixin main-font {
-  font-family: "Helvetica",
+  font-family: "Roboto", 
     sans-serif;
 }
 
 @mixin secondary-font {
-  font-family: "Helvetica",
+  font-family: "Roboto",
     sans-serif;
 }
 
 @font-face {
-  font-family: Helvetica;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Regular.ttf);
   font-weight: normal;
 }
 
 @font-face {
-  font-family: Helvetica;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Bold.ttf);
   font-weight: bold;
 }
 
 @font-face {
-  font-family: Helvetica;
+  font-family: "Roboto";
   src: url(../fonts/Roboto/Roboto-Light.ttf);
   font-weight: 300;
 }
@@ -60,7 +60,7 @@ $btnColor: #777777;
 
 body {
   @include main-font;
-  //color: #101010;
+ 
   color: $white;
   background-color: $black;
 }
@@ -154,7 +154,7 @@ body {
       font-variant: small-caps;
       font-size: 1.5rem;
       margin: 10px 0;
-      color: white ;
+      color: $third ;
       text-align: center;
     }
 
@@ -167,8 +167,9 @@ body {
 
   .current-menu-item{
     text-decoration-line:underline;
-    text-decoration-color: $third;
-      // text-decoration: underline $third;
+    text-decoration-style:double ;
+ 
+  
   }
 }
 
