@@ -8,9 +8,7 @@
             <a href="#">
                 <img src="<?php bloginfo('template_directory'); ?>/images/fb.png" alt="">
             </a>
-            <a href="#">
-                <img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="">
-            </a>
+
             <a href="#">
                 <img src="<?php bloginfo('template_directory'); ?>/images/linkedin.png" alt="">
             </a>
