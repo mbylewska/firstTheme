@@ -124,7 +124,7 @@ body {
   height: auto;
 }
 
-.header_section {}
+// .header_section {}
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -147,28 +147,31 @@ body {
 }
 .custom_nav-container.navbar-expand-lg .navbar-nav {
   
-  .nav-item {
-    .nav-link {
+  .menu-item {
+
+    a {
       padding: 5px 25px;
       font-variant: small-caps;
       font-size: 1.5rem;
       margin: 10px 0;
-      color: white;
+      color: white ;
       text-align: center;
     }
 
-    &.active {
-      .nav-link {
-        text-decoration: underline $third;
-      }
-    }
     &:hover {
-      .nav-link {
+      a {
         color: $primary1;
       }
     }
   }
+
+  .current-menu-item{
+    text-decoration-line:underline;
+    text-decoration-color: $third;
+      // text-decoration: underline $third;
+  }
 }
+
 
 
 

@@ -25,6 +25,7 @@ add_action('wp_enqueue_scripts', 'load_stylesheets');
 function addjs()
 {
 
+    wp_deregister_script('jquery');
     wp_register_script('jquery', get_template_directory_uri() . '/js/jquery-3.4.1.min.js', array(), 1, 1, 1);
     wp_enqueue_script('jquery');
 
@@ -35,3 +36,18 @@ function addjs()
     wp_enqueue_script('custom');
 };
 add_action('wp_enqueue_scripts', 'addjs');
+
+
+
+//menu support
+add_theme_support('menus');
+
+
+
+//Register menus
+register_nav_menus(
+
+    array(
+        'top-menu' => __('Top Menu', 'theme')
+    )
+);

@@ -40,8 +40,23 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                            <ul class="navbar-nav  ">
-                                <li class="nav-item active">
+
+                            <?php wp_nav_menu(
+
+                                array(
+
+                                    'theme_location' => 'top-menu',
+                                    'container' => 'ul',
+
+                                    'menu_class' => 'navbar-nav  ',
+
+
+                                )
+                            ); ?>
+
+                            <!-- <ul class="navbar-nav  "> -->
+
+                            <!-- <li class="nav-item active">
                                     <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
@@ -53,9 +68,9 @@
                                     <a class="nav-link" href="contact.html">
                                         contact
                                     </a>
-                                </li>
+                                </li> -->
 
-                            </ul>
+                            <!-- </ul> -->
 
                         </div>
                     </div>
