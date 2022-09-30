@@ -41,7 +41,7 @@ add_action('wp_enqueue_scripts', 'addjs');
 
 //menu support
 add_theme_support('menus');
-
+add_theme_support('post-thumbnails');
 
 
 //Register menus
