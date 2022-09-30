@@ -2,7 +2,7 @@
 
     <?php $hero = get_field('hero'); ?>
     <!-- slider section -->
-    <section class=" slider_section position-relative">
+    <section class=" slider_section position-relative" style="background-image: url(<?php the_post_thumbnail_url(); ?>)">
 
         <div class="container">
             <div class="detail-box">
@@ -106,7 +106,7 @@
 
     <!-- end do section -->
 
-    <!-- template section -->
+    <!-- gallery section -->
 
     <?php
 
@@ -167,7 +167,7 @@
         </div>
     </section>
 
-    <!-- end template section -->
+    <!-- end gallery section -->
 
     <!-- service section -->
 
