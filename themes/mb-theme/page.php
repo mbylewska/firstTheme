@@ -17,11 +17,15 @@
                     </p>
                 </div>
             </div>
+
+            <?php if ($hero['link']) : ?>)
             <div class="btn-box">
+
                 <a href="<?php echo $hero['link']; ?>" class="btn1">
                     <?php echo $hero['link_text']; ?>
                 </a>
             </div>
+        <?php endif; ?>
         </div>
     </div>
 
@@ -30,6 +34,8 @@
 
 </section>
 <!-- end slider section -->
+</div>
+<!-- end hero area -->
 
 
 
