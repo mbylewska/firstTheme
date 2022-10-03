@@ -175,6 +175,7 @@ a:focus {
 }
 .slider_section .detail-box {
   color: #FFBA49;
+  padding: 50px 0;
 }
 .slider_section .detail-box h1 {
   font-weight: bold;
