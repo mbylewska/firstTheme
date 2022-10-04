@@ -369,7 +369,7 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 15px;
   padding-bottom: 20px;
 }
 .footer_section .social_box a {
@@ -407,7 +407,7 @@ a:focus {
   color: #666464;
 }
 .footer_section p a {
-  color: inherit;
+  color: #FFBA49;
 }
 
 /* end footer section*//*# sourceMappingURL=style.css.map */

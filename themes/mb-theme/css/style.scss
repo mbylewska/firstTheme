@@ -482,7 +482,7 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 15px;
     padding-bottom: 20px;
 
     a {
@@ -529,7 +529,7 @@ a:focus {
     color: #666464;
 
     a {
-      color: inherit;
+      color: $third;
     }
   }
 }
