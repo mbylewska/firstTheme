@@ -483,6 +483,7 @@ a:focus {
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    padding-bottom: 20px;
 
     a {
       margin: 0 10px;
@@ -493,6 +494,7 @@ a:focus {
 
     display: flex;
     justify-content: center;
+   
 
     .link-box {
       display: flex;
@@ -520,7 +522,7 @@ a:focus {
   }
 
   p {
-    padding-top: 20px;
+    //padding-top: 10px;
     padding-bottom: 20px;
     margin: 0 auto;
     text-align: center;
